@@ -38,10 +38,10 @@ const Post = ({ post }) => {
         <div className="info">
           <div className="item">
             {liked ? <FavoriteOutlinedIcon /> : <FavoriteBorderOutlinedIcon />}
-            18 Like
+            18 Likes
           </div>
           <div className="item" onClick={() => setCommentOpen(!commentOpen)}>
-            <TextsmsOutlinedIcon />9 Comment
+            <TextsmsOutlinedIcon />9 Comments
           </div>
           <div className="item">
             <ShareOutlinedIcon />
